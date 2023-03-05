@@ -1,0 +1,82 @@
+
+.App {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  font-display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    display: grid;
+    grid-template-rows: (12,1fr) ;
+    grid-template-columns: (12,1fr) ;
+}
+
+.App > .Header {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  font-size: 16;
+  grid-column: 12 span;
+  grid-row: 1 span;
+  justify-content: space-between;
+  align-items: center;
+    color:rgb(84, 111, 243);
+}
+
+.App > .Main {
+  /* background-color:rgb(169, 180, 227); */
+  color: var(--primary-color);
+  background-color: var(--background-color);
+    font-size: 16;
+    grid-row: 10 span;
+    grid-column: 10 span;
+    height: 100%;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: space-between;
+    
+}
+
+.App > .Menu {
+  /* background-color:rgb(92, 108, 172); */
+  color: var(--primary-color);
+  background-color: var(--background-color);
+    display: flex;
+    font-size: 16;
+    grid-row: 10 span;
+    grid-column: 2 span;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+}
+.App > .Footer {
+  /* background-color:rgb(155, 165, 205); */
+  color: var(--primary-color);
+  background-color: var(--background-color);
+  font-size: 16;
+  grid-row: 1 span;
+  grid-column: 12 span;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items: center;
+
+}
+
+.App > button
+{
+  position: relative;
+  right: 5%;
+}

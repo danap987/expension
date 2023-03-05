@@ -1,0 +1,16 @@
+.Menu #icons
+{ display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+
+.Menu .iframe
+{width: 10px;
+height:10px;
+border: solid 2px rgb(21, 38, 68);
+}
+
+.Menu h3
+{margin-top: 10%;
+}
